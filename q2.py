@@ -7,7 +7,7 @@ def find_and_replace(lst, find_val, replace_val):
     """
     # Check if lst is a list
     if not isinstance(lst, list):
-        return "Error: The first argument must be a list."
+        return "Error: The argument is not correct."
     
     # Iterate over the list and replace occurrences of find_val with replace_val
     for index in range(len(lst)):
